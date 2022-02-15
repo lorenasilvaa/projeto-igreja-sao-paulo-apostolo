@@ -1,0 +1,29 @@
+@charset "UTF-8";
+form{
+	width:450px;
+	height:260px;
+	margin:auto;
+	margin-bottom:20px;
+}
+legend{
+	color:#888888;
+	font-weight:bold;
+	font-size:1em;
+	font-family:sans-serif;
+}
+fieldset{
+	border-color:#ADD8E6;
+	margin:20px;
+}
+input#botao-enviar{
+	color:white;
+	background-color:#054F77;
+	font-family: 'Kumbh Sans', sans-serif;
+	padding:5px 15px 5px 15px;
+	border-radius: 10px;
+	margin-top:20px;
+	margin-left:150px;
+}
+.cc{
+	font-size:0.3em;
+}

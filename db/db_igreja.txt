@@ -1,0 +1,30 @@
+CREATE DATABASE igreja;
+
+USE igreja;
+
+CREATE TABLE frases(
+cod_frase INTEGER PRIMARY KEY AUTO_INCREMENT, 
+desc_frase VARCHAR(500) NOT NULL,
+autor_frase VARCHAR(50) NOT NULL);
+
+CREATE TABLE eventos(
+cod_evento INTEGER PRIMARY KEY AUTO_INCREMENT, 
+titulo_evento VARCHAR(50) NOT NULL,
+data_evento CHAR(10) NOT NULL,
+hora CHAR(5) NOT NULL,
+local VARCHAR(100) NOT NULL,
+desc_evento VARCHAR(500) NOT NULL);
+
+CREATE TABLE doacoes(
+cod_doacao INTEGER PRIMARY KEY AUTO_INCREMENT,
+item VARCHAR(50) NOT NULL,
+caracteristicas VARCHAR(200) NOT NULL, 
+descricao VARCHAR(400) NOT NULL,
+status CHAR(1) NOT NULL);
+
+CREATE TABLE usuario(
+id INTEGER PRIMARY KEY AUTO_INCREMENT,
+usuario VARCHAR( 50 ) NOT NULL ,
+senha VARCHAR( 100 ) NOT NULL );
+
+INSERT INTO usuario(usuario, senha) VALUES ('apostoloigrejasaopaulo@gmail.com', md5('F4z3r0B3m2505'));

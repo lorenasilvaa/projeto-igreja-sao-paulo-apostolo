@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+form{
+	min-height:320px;
+	max-width:500px;
+	height:560px;
+	margin:auto;
+}
+
+input, textarea{
+	font-family:sans-serif;
+	font-weight:normal;
+	font-size:1em;
+	background-color:rgba(255,255,255,.8);
+}
+input:hover, textarea:hover{
+	background-color:#dddddd;
+}
+legend{
+	color:#888888;
+	font-weight:bold;
+	font-size:1em;
+	font-family:sans-serif;
+}
+
+input:focus,select:focus,textarea:focus,button:focus {
+    outline: none;
+}
+
+fieldset{
+	border-color:#ADD8E6;
+	margin:20px;
+}
+.importante{
+	color:red; 
+	font-size:5em;
+}
+/*Estilo dos botões de enviar e limpar*/
+.botao{
+	color:white;
+	background-color:#054F77;
+	font-family: 'Kumbh Sans', sans-serif;
+	padding:5px 15px 5px 15px;
+	border-radius: 10px;
+	margin-top:25px;
+	margin-left:60px;
+}
